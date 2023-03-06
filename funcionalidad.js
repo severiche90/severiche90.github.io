@@ -3,7 +3,7 @@ const parrafo = document.getElementById('desplegar')
 const enlace_mas = document.getElementById('mas');
 const enlace_menos = document.getElementById('menos');
 
-// Eventos para ver el modal de carta de presentacion
+// Eventos para ver el modal de la carta de presentacion
 const abrir_modal = document.getElementById('abrir_modal');
 const modal_container = document.getElementById('modal-container');
 const cerrar_modal = document.getElementById('cerrar_modal');
