@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Curriculum Vitae</title>
+   <!-- Enlace a la hoja de estylos css -->
+   <link rel="stylesheet" href="styles.css">
+   <!-- Enlace a google fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+   <!-- Enlace a font awesome -->
+   <script src="https://kit.fontawesome.com/5fcb72357e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <!-- En este contenedor va toda la informacion del curriculum -->
+   <div class="contenedor_hoja">
+      <div class="margen_hoja">
+         <div class="foto_perfil">
+              <img src="imagen/foto_perfil.PNG" alt="" class="imgRedonda">
+              <div class="nombre_carrera">
+                <h1>Jose severiche</h1> 
+                <p>INGENIERO ELECTRONICO</p>
+                <p>CONTACTOS</p>
+                <ul>
+                  <li><i class="fa-solid fa-phone"></i> Celular: +54 9 11 50456289</li>
+                  <li><i class="fa-solid fa-envelope"></i> E-mail: severichejose90@gmail.com</li>
+                  <li><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/severiche-jose90/" target="_blank">[Linkedin]</a></li>
+                  <li><i class="fa-brands fa-github"></i> <a href="https://github.com/severiche90" target="_blank">[Github]</a></li>
+                </ul>
+              </div>
+         </div>
+         <div class="perfil_profesional">
+             <h3>PERFIL PROFESIONAL</h3> 
+                <p>
+                   Ingeniero electrónico con orientación hacia el desarrollo de software 
+                   y hardware.<a href="#" id="mas">... [leer mas]</a> 
+                </p> 
+                <p id="desplegar"> Actualmente cursando la especialidad en Internet de las cosas en la facultad de ingeniería 
+                    de la universidad de Buenos Aires, tambien cursando primeros pasos en el desarrollo fronted en Argentina programa 4.0 <a href="#" id="menos">... [leer menos]</a>
+                </p>
+         </div>
+         <div class="carta_presentacion">
+            <hr>
+            <p>Para ver carta de presentacion hacer click en el boton <button id="abrir_modal">ver carta</button> </p>
+            <hr>
+         </div>
+         <div class="informacion_fila_uno">
+            <div class="experiencia">
+               <div>
+                  <h3><i class="fa-solid fa-briefcase"></i> EXPERIENCIA LABORAL</h3>
+                  <hr>
+                  <p>INGENIERO EN EQUIPOS DE LABORATORIO DE ANALISIS CLINICOS</p>
+                  <p>Materbionet | 2022 - presente</p>
+                  <ul>
+                     <li>Mantenimietos preventivos y correctivos</li>
+                     <li>Instalaciones</li>
+                     <li>Relevamientos</li>
+                  </ul>
+               </div>
+            </div>  
+            <div class="educacion">
+               <div>
+                  <h3><i class="fa-solid fa-graduation-cap"></i> FORMACION ACADEMICA</h3>
+                  <hr>
+                  <p>UNIVERSIDAD DE BUENOS AIRES</p>
+                  <p>Especialidad en Internet de las cosas</p>
+                  <ul>
+                     <li>2020 - Actualidad</li>
+                  </ul>
+                  <p>UNIVERSIDAD TECNOLOGICA NACIONAL</p>
+                  <P>Ingenieria electronica</P>
+                  <ul>
+                     <li>Graduacion Marzo 2019</li>
+                  </ul>
+               </div>
+            </div>
+         </div> 
+         <div class="informacion_fila_dos">
+            <div class="datos_personales">
+               <div>
+                  <h3><i class="fa-solid fa-user"></i> DATOS PERSONALES</h3>
+                  <hr>
+                  <ul>
+                     <li>Fecha de nacimiento: 08-02-1990</li>
+                     <li>Nacionalidad: Argentino</li>
+                     <li>CUIT: 20-40654344-8</li>
+                     <li>Domicilio: Quilmes, Buenos Aires</Datag></li>
+                  </ul>  
+               </div>
+            </div>
+               <div class="area_especializacion">
+                  <div>
+                     <h3><i class="fa-solid fa-laptop-code"></i> ESPECIALIZACION</h3>
+                     <hr>
+                     <p>DESARROLLADOR FULLSTACK</p>
+                     <p>Tecnologias Utilizadas</p>
+                     <ul>
+                        <li>HTML5, CSS, JavaScript</li>
+                        <li>NodeJs</li>
+                        <li>SQL</li>
+                     </ul>
+                  </div>
+               </div>
+         </div>
+         <div class="informe_fila_tres">
+            <div class="cursos">
+               <div>
+                  <h3><i class="fa-solid fa-award"></i> CURSOS</h3>
+                  <hr>
+                  <p>ARGENTINA PROGRAMA 4.0</p>
+                  <P>Primeros pasos en Front-end</P>
+                  <ul>
+                     <li>Diciembre 2022 - Actualidad</li>
+                  </ul>
+               </div>
+            </div>
+            <div class="idiomas">
+               <div>
+                  <h3><i class="fa-solid fa-language"></i> IDIOMAS</h3>
+                  <hr>
+                  <p>Ingles</p>
+                  <ul>
+                     <li>Nivel intermedio</li>
+                  </ul>  
+               </div>
+            </div>
+         </div>
+      </div>    
+   </div>
+   <!-- modal que contiene la informacion de la carta de presentacion-->
+   <div class="modal-container" id="modal-container">
+      <div class="modal">
+         <h2><i>Jose Severiche</i></h2>
+         <p><i>Buenos Aires, 05 de Marzo del 2023</i></p>
+         <p><i>Estimado/a</i></p>
+         <p>
+           <i>Mi nombre es Jose Severiche tengo 33 años y actualmente vivo en la cuidad de Quilmes. De profesion ingeniero electronico graduado 
+           en Marzo del 2019 en la Universidad Tecnologica Nacional facultad regional Avellaneda.</i>
+         </p>
+         <p><i>Atentamente, 
+            <br>
+            Ing. Jose Severiche.</i>
+         </p>
+         <button id="cerrar_modal">cerrar carta</button>
+      </div>
+   </div> 
+   <!-- Enlace al archivo funcionalidad.js de javaScript -->
+   <script src="funcionalidad.js"></script>
+</body>
+</html>

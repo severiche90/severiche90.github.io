@@ -1,0 +1,166 @@
+body{
+   background-color:burlywood;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: x-large;
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size:large;
+}
+
+p{
+    font-family: 'Poppins', 
+    sans-serif;
+    font-weight: 400;
+    font-size: small;
+}
+
+li{
+    font-family: 'Poppins', 
+    sans-serif;
+    font-weight: 400;
+    font-size: small;
+}
+
+.contenedor_hoja{
+  background-color: white;
+  width: 794px;
+  height: 1123px;  
+}
+
+.imgRedonda{
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    border: 3px solid #090909;
+    margin: 10px;
+}
+
+.margen_hoja{
+    margin: 20px;
+}
+
+.foto_perfil{
+    display: flex;
+    background-color:rgb(122, 113, 113);
+    color: white;
+}
+
+.nombre_carrera{
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.informacion_fila_uno{
+    display: flex;
+}
+
+.experiencia{
+    display: flex;
+    justify-content:left;
+    width: 50%;
+}
+
+.educacion{ 
+   display: flex;
+   justify-content: right;
+   width: 50%;
+}
+
+.informacion_fila_dos{
+    display: flex;
+}
+
+.datos_personales{
+    display: flex;
+    justify-content: left;
+    width: 57%;
+}
+
+.area_especializacion{
+    display: flex;
+    justify-content: right;
+    width: 34%;
+    
+}
+
+.informe_fila_tres{
+    display: flex;
+}
+
+.cursos{
+  display: flex;
+  justify-content: left;
+  width: 50%;
+}
+
+.idiomas{
+    display: flex;
+    justify-content: right;
+    width: 36%;
+}
+
+#desplegar{
+  display: none;
+}
+
+a{
+  color: rgb(48, 48, 218);  
+}
+
+.modal-container{
+  display: flex;
+  opacity: 0;
+  background-color: rgb(0, 0, 0, 0.3);
+  align-items: center;
+  justify-content: center;
+  position:fixed;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.modal{
+  background-color: white; 
+  width: 63%;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+
+.show{
+    pointer-events: auto;
+    opacity: 1;
+}
+
+#abrir_modal{
+    background-color:steelblue;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+#cerrar_modal{
+    display: inline-block;
+    background-color:steelblue;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
